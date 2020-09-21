@@ -7,7 +7,7 @@ int main() {
   char operator;
   float answer;
 
-  printf("This program is a simple calculator.\n");
+  printf("\nThis program is a simple calculator.\n\n");
   
   printf("Enter the first number of your calculation: ");
   scanf(" %f", &num1);

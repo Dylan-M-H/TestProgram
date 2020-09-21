@@ -1,2 +1,2 @@
 language = "c"
-run = "clang-7 -pthread -lm -o testprogram testprogram.c"
+run = "clang-7 -pthread -lm -o testprogram testprogram.c;./testprogram"
