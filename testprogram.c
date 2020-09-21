@@ -23,17 +23,17 @@ int main() {
 
   if( operator == 'x' ) {
     answer = num1 * num2;
-    printf("%f %c %f = %f", num1, operator, num2, answer);}
+    printf("%f %c %f = %f\n", num1, operator, num2, answer);}
   if( operator == '*' ) {
     answer = num1 * num2;
-    printf("%f %c %f = %f", num1, operator, num2, answer);}
+    printf("%f %c %f = %f\n", num1, operator, num2, answer);}
   if( operator == '/' ) {
     answer = num1 / num2;
-    printf("%f %c %f = %f", num1, operator, num2, answer);}
+    printf("%f %c %f = %f\n", num1, operator, num2, answer);}
   if( operator == '+' ) {
     answer = num1 + num2;
-    printf("%f %c %f = %f", num1, operator, num2, answer);}
+    printf("%f %c %f = %f\n", num1, operator, num2, answer);}
   if( operator == '-' ) {
     answer = num1 - num2;
-    printf("%f %c %f = %f", num1, operator, num2, answer);}
+    printf("%f %c %f = %f\n", num1, operator, num2, answer);}
 }
